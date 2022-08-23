@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto"
-            android:text="Login"
+            android:text="New User"
             android:textColor="@color/white"
             android:textSize="34sp"
             android:textStyle="bold"
@@ -97,34 +97,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:padding="16dp"
-        android:text="Login"
+        android:text="Save"
         app:layout_constraintEnd_toEndOf="@+id/edit_text_password"
         app:layout_constraintStart_toStartOf="@+id/edit_text_password"
         app:layout_constraintTop_toBottomOf="@+id/edit_text_password" />
 
-    <CheckBox
-        android:id="@+id/check_box_remember"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:buttonTint="@color/white"
-        android:fontFamily="@font/roboto"
-        android:text="Remember"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/button_login"
-        app:layout_constraintTop_toBottomOf="@+id/button_login" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Add new user"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/check_box_remember"
-        app:layout_constraintTop_toBottomOf="@+id/check_box_remember" />
 </androidx.constraintlayout.widget.ConstraintLayout>
