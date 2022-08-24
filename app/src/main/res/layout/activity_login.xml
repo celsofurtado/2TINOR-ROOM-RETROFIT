@@ -92,7 +92,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <Button
-        android:id="@+id/button_login"
+        android:id="@+id/button_save"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -113,11 +113,11 @@
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/button_login"
-        app:layout_constraintTop_toBottomOf="@+id/button_login" />
+        app:layout_constraintEnd_toEndOf="@+id/button_save"
+        app:layout_constraintTop_toBottomOf="@+id/button_save" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/text_view_new_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
